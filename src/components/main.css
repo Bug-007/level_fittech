@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:antiquewhite;
+    height: 100vh;
+}
+
+.center-container{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    background-color: aqua;
+}
+
+.left{
+    flex: 1;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+.left-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.manage-list{
+    margin-top: 70px;
+}
+
+
+
+.list-title{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: gray;
+}
+
+.list-item{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.list-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.list-text{
+    margin-left: 10px;
+}
+
+.support-list{
+    margin-top: 20px;
+}
+
+
+.help-center{
+    background-color: bisque;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.help-title{
+margin-top: 30px;
+margin-left: 20px;
+color: gray;
+}
+
+.help-text{
+    margin-top: 5px;
+    margin-left: 20px;
+color: gray;
+}
+
+.help-btn{
+    outline: none;
+    border: none;
+    background-color: gray;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.right{
+    flex: 5;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.chart-view{
+    display: flex;
+    justify-content: space-around;
+}
+
+.notification{
+    width: 30px;
+    height: 30px;
+}
+
+.badge{
+    width: 30px;
+    height: 30px;
+}
